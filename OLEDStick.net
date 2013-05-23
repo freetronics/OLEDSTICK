@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/gus/ft/oled/OLED128LeoStick/OLED128LeoStick.sch)
+    (source /home/gus/ft/oled/OLEDStick/OLEDStick.sch)
     (date "Thu 23 May 2013 14:54:40 EST")
     (tool "eeschema (2013-mar-13)-testing"))
   (components

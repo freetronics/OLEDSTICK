@@ -30,7 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:OLED128LeoStick-cache
+LIBS:OLEDStick-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -68,7 +68,7 @@ F 3 "~" H 10150 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 9650 1300 0    60   ~ 0
-OLED128 Connector
+OLED Connector
 Wire Wire Line
 	9350 1600 9800 1600
 Wire Wire Line
