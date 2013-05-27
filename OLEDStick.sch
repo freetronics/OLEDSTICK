@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 23 May 2013 17:03:02 EST
+EESchema Schematic File Version 2  date Tue 28 May 2013 09:34:53 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Freetronics OLEDStick              http://www.freetronics.com/OLEDStick"
-Date "23 may 2013"
+Date "27 may 2013"
 Rev "1"
 Comp "(C)2013 Freetronics Pty Ltd"
 Comment1 "Released under TAPR Open Hardware License www.tapr.org/ohl"
@@ -56,37 +56,26 @@ F 3 "~" H 5750 4100 60  0000 C CNN
 	1    5700 5250
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_10 P1
-U 1 1 519C5774
-P 10550 3650
-F 0 "P1" V 10500 3650 60  0000 C CNN
-F 1 "CONN_10" V 10600 3650 60  0000 C CNN
-F 2 "~" H 10550 3650 60  0000 C CNN
-F 3 "~" H 10550 3650 60  0000 C CNN
-	1    10550 3650
-	1    0    0    -1  
-$EndComp
-Text Notes 10050 3000 0    60   ~ 0
+Text Notes 9550 5250 0    60   ~ 0
 OLED Connector
 Wire Wire Line
-	9750 3300 10200 3300
+	10800 5450 10350 5450
 Wire Wire Line
-	10200 3400 9850 3400
+	9550 5550 9200 5550
 Wire Wire Line
-	10200 3500 9850 3500
+	10350 5550 10700 5550
 Wire Wire Line
-	10200 3600 9850 3600
+	9550 5650 9200 5650
 Wire Wire Line
-	10200 3700 9850 3700
+	10350 5650 10700 5650
 Wire Wire Line
-	10200 3800 9850 3800
+	9550 5750 9200 5750
 Wire Wire Line
-	10200 3900 9850 3900
+	10350 5750 10700 5750
 Wire Wire Line
-	10200 4000 9850 4000
+	9200 5850 9550 5850
 Wire Wire Line
-	10200 4100 9850 4100
+	10350 5850 10700 5850
 Wire Wire Line
 	6500 4650 6800 4650
 Wire Wire Line
@@ -149,38 +138,38 @@ Wire Wire Line
 	4900 5850 4600 5850
 Wire Wire Line
 	4900 5950 4600 5950
-Text Label 10200 3400 2    60   ~ 0
+Text Label 9550 5550 2    60   ~ 0
 uSD_nCS
-Text Label 10200 3500 2    60   ~ 0
+Text Label 10350 5550 0    60   ~ 0
 uSD_CD
-Text Label 10200 3600 2    60   ~ 0
+Text Label 9550 5650 2    60   ~ 0
 MISO
-Text Label 10200 3700 2    60   ~ 0
+Text Label 10350 5650 0    60   ~ 0
 MOSI
-Text Label 10200 3800 2    60   ~ 0
+Text Label 9550 5750 2    60   ~ 0
 SCK
-Text Label 10200 3900 2    60   ~ 0
+Text Label 10350 5750 0    60   ~ 0
 OLED_nCS
-Text Label 10200 4000 2    60   ~ 0
+Text Label 9200 5850 0    60   ~ 0
 OLED_DnC
-Text Label 10200 4100 2    60   ~ 0
+Text Label 10350 5850 0    60   ~ 0
 OLED_nRST
 $Comp
 L +5V #PWR01
 U 1 1 519C5949
-P 9750 3150
-F 0 "#PWR01" H 9750 3240 20  0001 C CNN
-F 1 "+5V" H 9750 3240 30  0000 C CNN
-F 2 "" H 9750 3150 60  0000 C CNN
-F 3 "" H 9750 3150 60  0000 C CNN
-	1    9750 3150
+P 9100 5400
+F 0 "#PWR01" H 9100 5490 20  0001 C CNN
+F 1 "+5V" H 9100 5490 30  0000 C CNN
+F 2 "" H 9100 5400 60  0000 C CNN
+F 3 "" H 9100 5400 60  0000 C CNN
+	1    9100 5400
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR02
 U 1 1 519C5A32
 P 6550 4450
-F 0 "#PWR03" H 6550 4450 30  0001 C CNN
+F 0 "#PWR02" H 6550 4450 30  0001 C CNN
 F 1 "GND" H 6550 4380 30  0001 C CNN
 F 2 "" H 6550 4450 60  0000 C CNN
 F 3 "" H 6550 4450 60  0000 C CNN
@@ -190,17 +179,17 @@ $EndComp
 Wire Wire Line
 	6550 4400 6550 4450
 Wire Wire Line
-	9750 3300 9750 3350
+	10800 5450 10800 5500
 $Comp
-L GND #PWR04
+L GND #PWR03
 U 1 1 519C5AA2
-P 9750 3350
-F 0 "#PWR04" H 9750 3350 30  0001 C CNN
-F 1 "GND" H 9750 3280 30  0001 C CNN
-F 2 "" H 9750 3350 60  0000 C CNN
-F 3 "" H 9750 3350 60  0000 C CNN
-	1    9750 3350
-	1    0    0    -1  
+P 10800 5500
+F 0 "#PWR03" H 10800 5500 30  0001 C CNN
+F 1 "GND" H 10800 5430 30  0001 C CNN
+F 2 "" H 10800 5500 60  0000 C CNN
+F 3 "" H 10800 5500 60  0000 C CNN
+	1    10800 5500
+	-1   0    0    -1  
 $EndComp
 Text Label 5150 4200 2    60   ~ 0
 MISO
@@ -293,10 +282,10 @@ Wire Wire Line
 NoConn ~ 6800 5850
 NoConn ~ 6800 5550
 $Comp
-L +5V #PWR?
+L +5V #PWR04
 U 1 1 519DBE93
 P 6550 4150
-F 0 "#PWR?" H 6550 4240 20  0001 C CNN
+F 0 "#PWR04" H 6550 4240 20  0001 C CNN
 F 1 "+5V" H 6550 4240 30  0000 C CNN
 F 2 "" H 6550 4150 60  0000 C CNN
 F 3 "" H 6550 4150 60  0000 C CNN
@@ -306,11 +295,22 @@ $EndComp
 Wire Wire Line
 	6550 4200 6550 4150
 Wire Wire Line
-	9750 3200 10200 3200
+	9100 5450 9550 5450
 Wire Wire Line
-	9750 3150 9750 3200
+	9100 5400 9100 5450
 Wire Wire Line
 	6550 4200 6250 4200
 Text Notes 3700 850  0    150  ~ 0
 Draw your project schematic here
+$Comp
+L CONN_5X2 P1
+U 1 1 51A3ED27
+P 9950 5650
+F 0 "P1" H 9950 5950 60  0000 C CNN
+F 1 "CONN_5X2" V 9950 5650 50  0000 C CNN
+F 2 "~" H 9950 5650 60  0000 C CNN
+F 3 "~" H 9950 5650 60  0000 C CNN
+	1    9950 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
