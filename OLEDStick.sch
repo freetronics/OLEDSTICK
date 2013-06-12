@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 28 May 2013 09:34:53 EST
+EESchema Schematic File Version 2  date Wed 12 Jun 2013 14:17:16 EST
 LIBS:freetronics_kicad_sch_lib
 LIBS:power
 LIBS:device
@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Freetronics OLEDStick              http://www.freetronics.com/OLEDStick"
-Date "27 may 2013"
-Rev "1"
+Date "12 jun 2013"
+Rev "0.1"
 Comp "(C)2013 Freetronics Pty Ltd"
 Comment1 "Released under TAPR Open Hardware License www.tapr.org/ohl"
 Comment2 "SKU: OLEDStick"
@@ -59,23 +59,23 @@ $EndComp
 Text Notes 9550 5250 0    60   ~ 0
 OLED Connector
 Wire Wire Line
-	10800 5450 10350 5450
+	10200 5450 10800 5450
 Wire Wire Line
-	9550 5550 9200 5550
+	9200 5550 9700 5550
 Wire Wire Line
-	10350 5550 10700 5550
+	10200 5550 10700 5550
 Wire Wire Line
-	9550 5650 9200 5650
+	9200 5650 9700 5650
 Wire Wire Line
-	10350 5650 10700 5650
+	10200 5650 10700 5650
 Wire Wire Line
-	9550 5750 9200 5750
+	9200 5750 9700 5750
 Wire Wire Line
-	10350 5750 10700 5750
+	10200 5750 10700 5750
 Wire Wire Line
-	9200 5850 9550 5850
+	9200 5850 9700 5850
 Wire Wire Line
-	10350 5850 10700 5850
+	10200 5850 10700 5850
 Wire Wire Line
 	6500 4650 6800 4650
 Wire Wire Line
@@ -295,7 +295,7 @@ $EndComp
 Wire Wire Line
 	6550 4200 6550 4150
 Wire Wire Line
-	9100 5450 9550 5450
+	9100 5450 9700 5450
 Wire Wire Line
 	9100 5400 9100 5450
 Wire Wire Line
@@ -303,14 +303,14 @@ Wire Wire Line
 Text Notes 3700 850  0    150  ~ 0
 Draw your project schematic here
 $Comp
-L CONN_5X2 P1
-U 1 1 51A3ED27
-P 9950 5650
-F 0 "P1" H 9950 5950 60  0000 C CNN
-F 1 "CONN_5X2" V 9950 5650 50  0000 C CNN
-F 2 "~" H 9950 5650 60  0000 C CNN
-F 3 "~" H 9950 5650 60  0000 C CNN
-	1    9950 5650
+L M02X05 P1
+U 1 1 51B7F600
+P 10000 5450
+F 0 "P1" H 9900 5550 50  0000 C CNN
+F 1 "M02X05" H 9950 4950 40  0000 C CNN
+F 2 "~" H 10000 5450 60  0000 C CNN
+F 3 "~" H 10000 5450 60  0000 C CNN
+	1    10000 5450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
