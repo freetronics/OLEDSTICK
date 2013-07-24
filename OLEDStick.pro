@@ -1,6 +1,6 @@
-update=Wed 22 May 2013 15:22:30 EST
+update=Wed 24 Jul 2013 16:52:58 EST
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [eeschema]
 version=1
 LibDir=
@@ -41,26 +41,34 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=OLEDStick.net
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
-PcbTextSizeV=1.500000000000
-PcbTextSizeH=1.500000000000
-PcbTextThickness=0.300000000000
-ModuleTextSizeV=1.000000000000
-ModuleTextSizeH=1.000000000000
-ModuleTextSizeThickness=0.150000000000
-SolderMaskClearance=0.000000000000
-SolderMaskMinWidth=0.000000000000
-DrawSegmentWidth=0.200000000000
-BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.150000000000
+PadDrill="    0.635000"
+PadDrillOvalY="    0.635000"
+PadSizeH="    0.762000"
+PadSizeV="    0.762000"
+PcbTextSizeV="    0.254000"
+PcbTextSizeH="    0.254000"
+PcbTextThickness="    0.063500"
+ModuleTextSizeV="    1.000000"
+ModuleTextSizeH="    1.000000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.199898"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
+LibDir=
 LibName1=library/freetronics_kicad_pcb_lib
 LibName2=sockets
 LibName3=connect
@@ -70,19 +78,10 @@ LibName6=divers
 LibName7=smd_capacitors
 LibName8=smd_resistors
 LibName9=smd_crystal&oscillator
-LibName10=smd_dil
-LibName11=smd_transistors
-LibName12=libcms
-LibName13=display
-LibName14=led
-LibName15=dip_sockets
-LibName16=pga_sockets
-LibName17=valves
-LibDir=
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
